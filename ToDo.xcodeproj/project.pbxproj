@@ -11,14 +11,18 @@
 		700FB8EE27B69881006716EC /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB8ED27B69881006716EC /* TaskRow.swift */; };
 		700FB8F027B6995C006716EC /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB8EF27B6995C006716EC /* AddTaskView.swift */; };
 		700FB8F227B6B9AF006716EC /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700FB8F127B6B9AF006716EC /* AddButton.swift */; };
+		70235CD627BCE5D700104721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70235CD527BCE5D700104721 /* ContentView.swift */; };
 		704C624A27AEE2A300BDBBAD /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C624927AEE2A300BDBBAD /* ToDoApp.swift */; };
-		704C624C27AEE2A300BDBBAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C624B27AEE2A300BDBBAD /* ContentView.swift */; };
+		704C624C27AEE2A300BDBBAD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C624B27AEE2A300BDBBAD /* HomeView.swift */; };
 		704C624E27AEE2A300BDBBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704C624D27AEE2A300BDBBAD /* Assets.xcassets */; };
 		704C625127AEE2A300BDBBAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704C625027AEE2A300BDBBAD /* Preview Assets.xcassets */; };
 		704C625927AEE36100BDBBAD /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 704C625827AEE36100BDBBAD /* Realm */; };
 		704C625B27AEE36100BDBBAD /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 704C625A27AEE36100BDBBAD /* RealmSwift */; };
 		704C625D27AEE3A200BDBBAD /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C625C27AEE3A200BDBBAD /* RealmManager.swift */; };
 		704C625F27AEE48C00BDBBAD /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C625E27AEE48C00BDBBAD /* Task.swift */; };
+		70885EBF27BD6D4F001A253D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70885EBE27BD6D4F001A253D /* LoginView.swift */; };
+		70885EC127BD893E001A253D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70885EC027BD893E001A253D /* RegisterView.swift */; };
+		70885EC327BD89BF001A253D /* CShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70885EC227BD89BF001A253D /* CShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,13 +30,17 @@
 		700FB8ED27B69881006716EC /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		700FB8EF27B6995C006716EC /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		700FB8F127B6B9AF006716EC /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		70235CD527BCE5D700104721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		704C624627AEE2A300BDBBAD /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704C624927AEE2A300BDBBAD /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
-		704C624B27AEE2A300BDBBAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		704C624B27AEE2A300BDBBAD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		704C624D27AEE2A300BDBBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704C625027AEE2A300BDBBAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		704C625C27AEE3A200BDBBAD /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		704C625E27AEE48C00BDBBAD /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		70885EBE27BD6D4F001A253D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		70885EC027BD893E001A253D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		70885EC227BD89BF001A253D /* CShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +59,12 @@
 		700FB8EB27B696F7006716EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				704C624B27AEE2A300BDBBAD /* ContentView.swift */,
+				704C624B27AEE2A300BDBBAD /* HomeView.swift */,
 				700FB8E927B696D2006716EC /* TasksView.swift */,
 				700FB8EF27B6995C006716EC /* AddTaskView.swift */,
+				70235CD527BCE5D700104721 /* ContentView.swift */,
+				70885EBE27BD6D4F001A253D /* LoginView.swift */,
+				70885EC027BD893E001A253D /* RegisterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -63,6 +74,7 @@
 			children = (
 				700FB8ED27B69881006716EC /* TaskRow.swift */,
 				700FB8F127B6B9AF006716EC /* AddButton.swift */,
+				70885EC227BD89BF001A253D /* CShape.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -182,14 +194,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70885EC127BD893E001A253D /* RegisterView.swift in Sources */,
 				704C625F27AEE48C00BDBBAD /* Task.swift in Sources */,
 				700FB8F027B6995C006716EC /* AddTaskView.swift in Sources */,
-				704C624C27AEE2A300BDBBAD /* ContentView.swift in Sources */,
+				704C624C27AEE2A300BDBBAD /* HomeView.swift in Sources */,
 				704C624A27AEE2A300BDBBAD /* ToDoApp.swift in Sources */,
 				700FB8EE27B69881006716EC /* TaskRow.swift in Sources */,
+				70235CD627BCE5D700104721 /* ContentView.swift in Sources */,
 				704C625D27AEE3A200BDBBAD /* RealmManager.swift in Sources */,
 				700FB8EA27B696D2006716EC /* TasksView.swift in Sources */,
+				70885EBF27BD6D4F001A253D /* LoginView.swift in Sources */,
 				700FB8F227B6B9AF006716EC /* AddButton.swift in Sources */,
+				70885EC327BD89BF001A253D /* CShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
