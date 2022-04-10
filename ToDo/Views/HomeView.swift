@@ -34,7 +34,6 @@ struct HomeView: View {
                 .environmentObject(realmManager)
         }
     }
-        
 }
 
 struct HomeView_Previews: PreviewProvider {

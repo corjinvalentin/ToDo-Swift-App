@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
-    @Binding var email : String
-    @Binding var password : String
+    @Binding var email: String
+    @Binding var password: String
     
     var body: some View {
         NavigationView {

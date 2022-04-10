@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var index = false
+    @State var validLogin = false
     @State var email = ""
     @State var password = ""
     
@@ -21,7 +21,7 @@ struct ContentView: View {
                 VStack {
                     Text("Welcome to my app")
                         .bold()
-                        .offset(y: -100)
+                        .offset(y: -80)
                         .font(.system(size: 30))
                     
                     LoginView(email: $email, password: $password)
@@ -30,16 +30,25 @@ struct ContentView: View {
                     //    .offset(y: -50)
                     
                     
-                    NavigationLink(destination: HomeView(),
-                                   label: {
-                        Text("Login")
-                            .bold()
-                            .frame(width: 200, height: 50)
-                            .background(Color("Color6"))
-                            .foregroundColor(.white)
-                            .cornerRadius(15)
+                    NavigationLink(destination: HomeView()/*.navigationBarBackButtonHidden(true)*/, isActive: $validLogin, label: {
+                        
                     })
+                    
                 }
+                
+                Button(action: {
+                    // TODO : Check if login is valid !!
+                    validLogin.toggle()
+                }, label: {
+                    Text("Login")
+                        .bold()
+                        .frame(width: 200, height: 50)
+                        .background(Color("Color6"))
+                        .foregroundColor(.white)
+                        .cornerRadius(15)
+                })
+                    .padding(.top, 500)
+
             }
         }
     }
